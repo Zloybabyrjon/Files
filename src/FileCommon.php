@@ -4,7 +4,8 @@ namespace Egor\Files;
 
 use Exception;
 
-abstract class FileCommon {
+abstract class FileCommon
+{
 
     private string $fileName;
     private string $data;

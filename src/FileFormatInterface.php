@@ -3,8 +3,8 @@
 namespace Egor\Files;
 
 
-interface FileFormatInterface {
+interface FileFormatInterface
+{
 
     public function getFormat(): string;
-    
 }
